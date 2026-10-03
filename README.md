@@ -12,11 +12,11 @@ There's a [playground](https://darioscianna.github.io/zonekit/) where you can
 draw two zones and see what the functions return.
 
 ```bash
-npm install zonekit
+npm install @darioscianna/zonekit
 ```
 
 ```ts
-import { relateRings, ringContainsRing, simplifyRing, validateRing } from "zonekit";
+import { relateRings, ringContainsRing, simplifyRing, validateRing } from "@darioscianna/zonekit";
 
 const bounds = [
   { x: 0, y: 0 },
@@ -71,7 +71,7 @@ latitude anywhere but the equator, so comparing them directly distorts every are
 and angle. Project first:
 
 ```ts
-import { projectionFor, toPlaneRing, validateRing } from "zonekit";
+import { projectionFor, toPlaneRing, validateRing } from "@darioscianna/zonekit";
 
 const projection = projectionFor(positions);      // local plane in metres
 const ring = toPlaneRing(positions, projection);

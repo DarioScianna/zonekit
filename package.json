@@ -1,5 +1,5 @@
 {
-  "name": "zonekit",
+  "name": "@darioscianna/zonekit",
   "version": "0.1.0",
   "description": "Zero-dependency TypeScript geometry for polygonal zones: validation, overlap detection and simplification.",
   "type": "module",
